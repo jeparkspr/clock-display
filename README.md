@@ -30,16 +30,18 @@ Below is a parts list and wiring diagram for the project.  From left to right:
 - A TTL to RS232 DB9 female adapter was combined with a male DB9 connector to wire Pin2 of the adapter to Pin1 of the GY2200.  
 - A PVC project box was used to hold the ESP32 and adapter with only the antenna and RS232 cable to the display exiting the box.  After the components were inside, it was hot-glued to the back of the GY2200.
 - And of course, the Vorne GY2200 with RS232 board installed.  The GY2200 was configured for 9600 baud, 8 data bits, 1 stop bit, CR on, LF off, no parity, address 00.
-  
-  ![DIP Switches](https://github.com/jeparkspr/clock-display/blob/main/GY2200%20DIP%20Switches.png)
-  ## Components and Wiring Diagram
-  ![Wiring Diagram](https://github.com/jeparkspr/clock-display/blob/main/Wiring%20Diagram.png)
-  Wiring diagram for the project
-  ![Project Front](https://github.com/jeparkspr/clock-display/blob/main/Project%20Front.jpg)
-  One of 6 output formats for the time.  Dimming is enabled as well along with the ability to blank the display.
-  ![Project Back](https://github.com/jeparkspr/clock-display/blob/main/Project%20Back.jpg)
-  Back of Vorne GY2200 with project box hot-glued to it.  Inside is an ESP32 DevKit v1, a TTL-to-RS232 Adapter, and wiring.
 
+![DIP Switches](https://github.com/jeparkspr/clock-display/blob/main/GY2200%20DIP%20Switches.png)
+## Components and Wiring Diagram
+![Wiring Diagram](https://github.com/jeparkspr/clock-display/blob/main/Wiring%20Diagram.png)
+*Wiring diagram for the project.*
+
+![Project Front](https://github.com/jeparkspr/clock-display/blob/main/Project%20Front.jpg)
+*One of 6 output formats for the time.  Dimming is enabled as well along with the ability to blank the display.*
+
+![Project Back](https://github.com/jeparkspr/clock-display/blob/main/Project%20Back.jpg)
+*Back of Vorne GY2200 with project box hot-glued to it.  Inside is an ESP32 DevKit v1, a TTL-to-RS232 Adapter, and wiring.*
+  
 ## Home Assistant and ESPHome
 The project was built under HA Core 2026.1.0 and ESPHome Builder 2025.12.5.  Initial flashing was done with ESPHome Web and after that wirelessly directly from ESPHome Builder.
 
