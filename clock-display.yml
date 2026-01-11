@@ -210,3 +210,4 @@ button:
     id: force_time_sync
     on_press:
       - script.execute: force_sync_script
+
