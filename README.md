@@ -34,7 +34,7 @@ Below is a parts list and wiring diagram for the project.  From left to right:
 ![DIP Switches](https://github.com/jeparkspr/clock-display/blob/main/GY2200%20DIP%20Switches.png)
 ## Components and Wiring Diagram
 ![Wiring Diagram](https://github.com/jeparkspr/clock-display/blob/main/Wiring%20Diagram.png)
-*Wiring diagram for the project.*
+*<small>Wiring diagram for the project.</small>*
 
 ![Project Front](https://github.com/jeparkspr/clock-display/blob/main/Project%20Front.jpg)
 *One of 6 output formats for the time.  Dimming is enabled as well along with the ability to blank the display.*
