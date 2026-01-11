@@ -49,7 +49,7 @@ Below is a parts list and wiring diagram for the project.  From left to right:
 ## Home Assistant and ESPHome
 The project was built under HA Core 2026.1.0 and ESPHome Builder 2025.12.5.  Initial flashing was done with ESPHome Web and after that wirelessly directly from ESPHome Builder.
 
-The YAML code is included in this repository.  Note, while it’s not entirely vibe coding, I learn quicker asking Copilot for help, so there’s that.  If you note code that is unnecessarily complex (or just silly), make note and share please.
+The [YAML code](https://github.com/jeparkspr/clock-display/blob/main/clock-display.yml) is included in this repository.  Note, while it’s not entirely vibe coding, I learn quicker asking Copilot for help, so there’s that.  If you note code that is unnecessarily complex (or just silly), make note and share please.
 
 ## Summary
 There are 100 ways to accomplish basically the same thing (i.e. build an Arduino sketch, etc).  In my case, I have so many things automated through HA that including this clock can allow me to combine it with other sensors and automations.  I will use this in my office and will likely tie the display output ON/OFF to a presence sensor under day-to-day use and possibly add an “Always Off” switch that overrides the automated switch.
