@@ -34,14 +34,17 @@ Below is a parts list and wiring diagram for the project.  From left to right:
 ![DIP Switches](https://github.com/jeparkspr/clock-display/blob/main/GY2200%20DIP%20Switches.png)
 ## Components and Wiring Diagram
 ![Wiring Diagram](https://github.com/jeparkspr/clock-display/blob/main/Wiring%20Diagram.png)
-*<small>Wiring diagram for the project.</small>*
+*Wiring diagram for the project.*
+
 
 ![Project Front](https://github.com/jeparkspr/clock-display/blob/main/Project%20Front.jpg)
 *One of 6 output formats for the time.  Dimming is enabled as well along with the ability to blank the display.*
 
+
 ![Project Back](https://github.com/jeparkspr/clock-display/blob/main/Project%20Back.jpg)
 *Back of Vorne GY2200 with project box hot-glued to it.  Inside is an ESP32 DevKit v1, a TTL-to-RS232 Adapter, and wiring.*
-  
+
+
 ## Home Assistant and ESPHome
 The project was built under HA Core 2026.1.0 and ESPHome Builder 2025.12.5.  Initial flashing was done with ESPHome Web and after that wirelessly directly from ESPHome Builder.
 
