@@ -53,6 +53,7 @@ The [YAML code](https://github.com/jeparkspr/clock-display/blob/main/clock-displ
 
 ##
 ![Dashboard for Clock in Home Assistant](https://github.com/jeparkspr/clock-display/blob/main/Clock-Display.png)
+
 *A Home Assitant dashboard to control the clock.  Automations are also possible as a result of being in HA.*
 
 ## Summary
