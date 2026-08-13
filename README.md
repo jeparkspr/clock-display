@@ -50,6 +50,8 @@ Below is a parts list and wiring diagram for the project.  From left to right:
 The project was built under HA Core 2026.1.0 and ESPHome Builder 2025.12.5.  Initial flashing was done with ESPHome Web and after that wirelessly directly from ESPHome Builder.
 
 The [YAML code](https://github.com/jeparkspr/clock-display/blob/main/clock-display.yml) is included in this repository.  Note, while it’s not entirely vibe coding, I learn quicker asking Copilot for help, so there’s that.  If you note code that is unnecessarily complex (or just silly), make note and share please.
+
+##
 ![Dashboard for Clock in Home Assistant](https://github.com/jeparkspr/clock-display/blob/main/Clock-Display.png)
 *A Home Assitant dashboard to control the clock.  Automations are also possible as a result of being in HA.*
 
